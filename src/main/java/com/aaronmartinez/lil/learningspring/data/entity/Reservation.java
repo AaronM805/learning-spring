@@ -25,7 +25,7 @@ public class Reservation {
     private long guestId;
     
     @Column(name="RES_DATE")
-    private Date resvervationDate;
+    private Date reservationDate;
 
     /**
      * @return the reservationId
@@ -70,16 +70,16 @@ public class Reservation {
     }
 
     /**
-     * @return the resvervationDate
+     * @return the reservationDate
      */
-    public Date getResvervationDate() {
-        return resvervationDate;
+    public Date getReservationDate() {
+        return reservationDate;
     }
 
     /**
-     * @param resvervationDate the resvervationDate to set
+     * @param reservationDate the reservationDate to set
      */
-    public void setResvervationDate(Date resvervationDate) {
-        this.resvervationDate = resvervationDate;
+    public void setReservationDate(Date reservationDate) {
+        this.reservationDate = reservationDate;
     }
 }
