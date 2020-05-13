@@ -38,6 +38,4 @@ public class RoomReservationWebController {
         model.addAttribute("roomReservations", roomReservations);
         return "reservations";
     }
-
-
 }

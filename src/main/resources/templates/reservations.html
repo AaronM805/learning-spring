@@ -31,9 +31,9 @@
             </div>
             <table class="table table-striped table-bordered">
                 <tr>
-                    <td>Room</td>
-                    <td>Room Number</td>
-                    <td>Guest</td>
+                    <th>Room</th>
+                    <th>Room Number</th>
+                    <th>Guest</th>
                 </tr>
                 <tr th:each="roomReservation: ${roomReservations}">
                     <td th:text="${roomReservation.roomName}">Room Name</td>
